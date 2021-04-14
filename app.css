@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', Nunito, sans-serif;
+    
+    }
+    
+    body{
+        min-height: 50vh;
+        align-items: center;
+        padding: 10px;
+        background: linear-gradient(135deg, #fff, #ccc);
+        align-content: center;
+        justify-content: center;
+        display: flex;
+    }
+    .wrapper{
+       
+        margin: 0 auto;
+       width: 100%;
+        max-width: 700px;
+       
+        box-sizing: border-box;
+        padding: 25px 30px;
+        background: #fff;
+        border: white 10px solid;
+        border-radius: 5px;
+    }
+    .wrapper h2{
+        font-family: Nunito, sans-serif;
+        font-size: 40px;
+        color: #0c3252;
+        position: relative;
+        text-align: center;
+    }
+    .wrapper h4{
+        font-size: 18px;
+        font-weight: bold;
+        color: #e7332b; 
+        margin-bottom: 3px;
+    }
+    .wrapper h2::before{
+        content: '';
+        position: absolute;
+        height: 3px;
+        width: 30px;
+        background: #e7332b;
+        bottom: 0;
+        left: 0;
+        border-radius: 50px;
+    }
+    .wrapper h2::after{
+        content: '';
+        position: absolute;
+        height: 3px;
+        width: 30px;
+        background: #e7332b;
+        top: 0;
+        right: 0;
+        border-radius: 1px;
+    }
+
+    .wrapper form .input-group {
+      display: flex;
+      flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    .wrapper form .input-group .input-box{
+        margin: 10px 0 2px 0;
+        width: calc(100% / 2 - 18px);
+        margin-bottom: 2px;}
+       
+    .wrapper form .input-group .input-box input[type="text"], 
+    .wrapper form .input-group .input-box input[type="email"], 
+    .wrapper form .input-group .input-box input[type="tel"] {
+        height: 45px;
+        width: 100%;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        padding: 15px;
+        text-transform: capitalize;
+        font-size: 14px;
+        border-bottom-width: 2px;
+        transition: all .3s ease;
+    }
+    
+
+    .wrapper form .input-group .input-box input[type="radio"]{
+        font-size: 14px;
+    }
+  .input-box select{
+      padding: 5px;
+      border: 1px #0c3252 solid;
+      border-radius: 18px;
+      background: #0c3252;
+      color: #fff;
+      text-align: center;
+  }  
+    }
+    .wrapper form .input-group .input-box input[type="radio"]
+    {
+        text-transform: capitalize;
+
+    }
+    .input .input-box span i{
+        text-transform: capitalize;
+    }
+    .wrapper form .input-group .input-box input:focus,
+    .wrapper form .input-group .input-box input:valid{
+        border-color: #0c3252;
+    }
+    .input-box button{
+        padding: 10px;
+      border: 1px #0c3252 solid;
+      border-radius: 18px;
+      background: #0c3252;
+      color: #fff;
+      text-align: center;
+      font-size: 14px;
+    }
+    .input-box button:hover {
+        background: #e7332b;
+        color: white;
+        border: 1px solid #e7332b;
+    }
+    /** Zuri's red color #e7332b
+       #0c3252 for blue */
+ 
+    
